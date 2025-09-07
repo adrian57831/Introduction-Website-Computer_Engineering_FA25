@@ -8,7 +8,7 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             line-height: 1.6;
-            text-align: center; /* centers the top image */
+            text-align: center;
             margin: 0;
             padding: 0;
         }
@@ -16,7 +16,7 @@
             width: 80%;
             margin: auto;
             overflow: hidden;
-            text-align: left; /* keeps content aligned left inside */
+            text-align: left;
         }
         .main-info {
             background: #333;
@@ -46,12 +46,15 @@
             padding: 15px;
             margin-bottom: 10px;
         }
+        ul {
+            list-style-type: square; /* Requirement 4 */
+        }
     </style>
 </head>
 <body>
     <!-- (1) Top centered image -->
     <div class="profile-pic">
-        <img src="me-800-by-800.jpeg" alt="Adrian Salinas" width="800">
+        <img src="images/me-800-by-800.jpg" alt="Adrian Salinas" width="800">
     </div>
 
     <!-- (2) Heading Section -->
@@ -62,33 +65,35 @@
             <p>Discord: Stay_Calm#1262</p>
         </div>
     </header>
-
     <div class="container">
-        <!-- Requirement 3: Introduction -->
         <section>
             <h2>Introduction</h2>
-            <p>Hello! My name is Adrian Salinas. I come from a household of 5, I have 2 older siblings and with both mmy father and mother. I was born and raised in the south side of Chicago and moved out on my own when I was 20 in Crest Hill. I love my parents very much and still talk to them to this day. 
-    </p>
-        </section>
-
-        <!-- Requirement 3: What I Hope to Learn -->
+            <p>Hello! My name is Adrian Salinas. I come from a household of five with two older siblings, my father, and my mother. I was born and raised on the South Side of Chicago and moved out on my own when I was 20 to Crest Hill. I love my parents very much and still talk to them to this day.</p>
+            
+            <!-- Thumbnail version -->
+            <img src="images/me-300-by-300.jpg" alt="Adrian Salinas Thumbnail" width="300">
         <section>
             <h2>What I Hope to Learn in this Course</h2>
             <ul>
-                <li>To grow my skill sets in building applications</li>
-                <li>Develope good coding skills</li>
-                <li>Learn how to properly debug and maintain pieces of software</li>
+                <li>Grow my skill sets in building applications</li>
+                <li>Develop good coding practices</li>
+                <li>Learn how to properly debug and maintain software</li>
             </ul>
-        </section>
-
-        <!-- Requirement 3: Hobby/Activity -->
         <section>
             <h2>My Favorite Hobby / Activity</h2>
-            <p>Enjoying activities that allow me to build skill sets and being active::</p>
+            <p>I enjoy activities that allow me to build skill sets and stay active:</p>
             <ul>
                 <li>Weightlifting</li>
-                <li>Learning new skill sets (like lascaping, mechanic work, and coding)</li>
+                <li>Learning new skills (like landscaping, mechanic work, and coding)</li>
             </ul>
             <p>
                 Learn more about a trading strategy that I have been doing: 
-                <a href="https://kaching.ainvest.com/articles/instructions" target="_blank">Aiinvest.com
+                <a href="https://kaching.ainvest.com/articles/instructions" target="_blank">AIinvest.com</a>
+            </p>
+        <section>
+            <h2>Fun Fact</h2>
+            <p>Since I work at a bar at Lockport, popular at Lewis, I see alot of students there.</p>
+        </section>
+    </div>
+</body>
+</html>
